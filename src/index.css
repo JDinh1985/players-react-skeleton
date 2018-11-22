@@ -3,6 +3,33 @@
   Or use Less or whatever form of styling brings you the most Joy. Bonus points for following a CSS methodology. (BEM, OOCSS, ETC)
 */
 
-body {
-  margin: 1em;
+body, html {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  background-color: #efefef !important;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-row-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
