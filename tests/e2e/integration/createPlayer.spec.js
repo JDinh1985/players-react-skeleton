@@ -6,12 +6,12 @@ describe('Add player page', () => {
     cy.route(
       'POST',
       'https://players-api.developer.alchemy.codes/api/players',
-      'fixture:createPlayer.json'
+      'fixture:createPlayer.json',
     );
     cy.route(
       'GET',
       'https://players-api.developer.alchemy.codes/api/players',
-      'fixture:getPlayers.json'
+      'fixture:getPlayers.json',
     );
   });
 

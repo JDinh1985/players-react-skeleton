@@ -4,7 +4,7 @@ describe('Register Page', () => {
     cy.route(
       'POST',
       'https://players-api.developer.alchemy.codes/api/user',
-      'fixture:createUser.json'
+      'fixture:createUser.json',
     );
   });
 

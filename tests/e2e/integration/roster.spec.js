@@ -5,7 +5,7 @@ describe('Roster Page', () => {
     cy.route(
       'GET',
       'https://players-api.developer.alchemy.codes/api/players',
-      'fixture:getPlayers.json'
+      'fixture:getPlayers.json',
     );
   });
 

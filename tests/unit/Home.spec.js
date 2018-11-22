@@ -20,8 +20,4 @@ describe('Home component', () => {
     const buttons = wrapper.find('button');
     expect(buttons.length).toEqual(2);
   });
-
-  it('should add 2+2 = 4', () => {
-    expect(2 + 2).toEqual(4);
-  });
 });
