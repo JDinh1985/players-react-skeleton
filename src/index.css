@@ -11,6 +11,10 @@ body, html {
   background-color: #efefef !important;
 }
 
+label {
+  display: none;
+}
+
 .flex-row {
   display: flex;
   align-items: center;

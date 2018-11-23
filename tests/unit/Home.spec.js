@@ -1,10 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import './setupTests';
 import Home from '../../src/components/Home/Home';
-
-// test('it should add 1 + 2 equals 3', () => {
-//   expect(Home(1, 2)).toBe(3);
-// });
 
 describe('Home component', () => {
   let wrapper;

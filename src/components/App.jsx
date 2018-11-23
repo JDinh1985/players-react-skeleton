@@ -1,6 +1,16 @@
 import React from 'react';
-import Home from './Home/Home';
+import { Route, Switch } from 'react-router-dom';
 
-const App = () => <Home />;
+import Home from './Home/Home';
+import Register from './Register/Register';
+
+const App = () => (
+  <div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/register" component={Register} />
+    </Switch>
+  </div>
+);
 
 export default App;
